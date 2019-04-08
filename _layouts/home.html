@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<div class="marketing">
+  {{ content }}
+
+  {%- if site.cenchat.id -%}
+    <button class="marketing__demo-button" id="cenchat-widget-button" {%- if page.cenchat_id -%} data-page-id="{{ page.cenchat_id }}" {%- endif -%}>Try a demo</button>
+  {%- endif -%}
+</div>
