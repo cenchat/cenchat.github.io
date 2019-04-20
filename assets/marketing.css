@@ -1,0 +1,84 @@
+.marketing {
+  padding: 56px 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 960px) {
+  .marketing {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 192px);
+    justify-content: center;
+    max-width: 568px;
+    padding: 64px 24px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.marketing__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 3.5rem;
+  color: rgba(0, 0, 0, 0.87);
+  text-align: center;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 800ms;
+  animation-delay: 300ms;
+  animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  animation-fill-mode: forwards;
+}
+
+.marketing__subtitle {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 800ms;
+  animation-delay: 300ms;
+  animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  animation-fill-mode: forwards;
+}
+
+.marketing__demo-button {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  height: 48px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #455b82;
+  border: none;
+  border-radius: 32px;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 800ms;
+  animation-delay: 400ms;
+  animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  animation-fill-mode: forwards;
+}
+
+@media (min-width: 960px) {
+  .marketing__demo-button {
+    right: 24px;
+    bottom: 24px;
+  }
+}

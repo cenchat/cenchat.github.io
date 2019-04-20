@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/**
+ * Remove appearance for Safari
+ */
+input,
+textarea {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove appearance for Firefox and Webkit/Blink browsers
+ */
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+/**
+ * Reset Segoe UI font to include font-weight 500 for Firefox
+ */
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 300;
+  src: local("Segoe UI Light");
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  src: local("Segoe UI");
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 500;
+  src: local("Segoe UI Semibold");
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Segoe UI Italic");
+}
