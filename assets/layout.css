@@ -20,12 +20,6 @@
   height: 56px;
   padding: 10px;
   background-color: #fff;
-  opacity: 0;
-  animation-name: fade-in;
-  animation-duration: 800ms;
-  animation-delay: 200ms;
-  animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
-  animation-fill-mode: forwards;
 }
 
 @media (min-width: 960px) {

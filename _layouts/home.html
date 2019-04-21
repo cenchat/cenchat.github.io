@@ -3,7 +3,13 @@ layout: default
 ---
 
 <div class="marketing">
-  {{ content }}
+  <div class="marketing__jumbotron">
+    <h1 class="marketing__title">Messaging for websites and blogs</h1>
+    <p class="marketing__subtitle">{{ site.description }}</p>
+    <p class="marketing__caption">
+      <em>Not yet available for integration to other websites</em>
+    </p>
+  </div>
 
   {%- if site.cenchat.id -%}
     <button class="marketing__demo-button" id="cenchat-widget-button" {%- if page.cenchat_id -%} data-page-id="{{ page.cenchat_id }}" {%- endif -%}>Try a demo</button>

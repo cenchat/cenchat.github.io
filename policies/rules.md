@@ -1,8 +1,8 @@
 ---
 layout: post
+title: "Rules"
+description: "Cenchat's goal is to provide a chat based communication tool for a website's audience while maintaining thoughtful and civil dialogue."
 ---
-
-# Rules
 
 Cenchat's goal is to provide a chat based communication tool for a website's audience while maintaining thoughtful and civil dialogue.
 

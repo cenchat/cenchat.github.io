@@ -1,8 +1,8 @@
 ---
 layout: post
+title: "Terms of Service"
+description: "These Terms of Service (“Terms”) are a contract between you and Cenchat. They govern your use of Cenchat’s sites, services, mobile apps, products, and content (“Services”)."
 ---
-
-# Terms of Service
 
 **Effective date: April 21, 2019**
 

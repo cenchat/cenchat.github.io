@@ -2,6 +2,7 @@
 layout: default
 ---
 
-<div class="post">
-  {{ content }}
-</div>
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+  <div itemprop="articleBody">{{ content }}</div>
+</article>

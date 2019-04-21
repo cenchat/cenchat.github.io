@@ -1,8 +1,8 @@
 ---
 layout: post
+title: "Privacy Policy"
+description: "This policy explains what information we collect when you use Cenchat's sites and services. It also has information how we receive that information, and what we do with it once we have it."
 ---
-
-# Privacy Policy
 
 *Effective date: April 21, 2019*
 
