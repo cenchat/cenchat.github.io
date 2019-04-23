@@ -4,7 +4,7 @@ title: "Privacy Policy"
 description: "This policy explains what information we collect when you use Cenchat's sites and services. It also has information how we receive that information, and what we do with it once we have it."
 ---
 
-**Effective date: April 21, 2019**
+**Effective date: April 23, 2019**
 
 This policy explains what information we collect when you use Cenchat's sites and services. It also has information how we receive that information, and what we do with it once we have it.
 
@@ -35,7 +35,7 @@ Cenchat uses third-party vendors and hosting partners, such as Google, for hardw
 
 ## Third-party embeds
 
-Some of the content that you see displayed on Cenchat is not hosted by us. One example is GIFs from Tenor. We don't control what data third parties collect in cases like this, or what they will do with it. So, third-party embeds on Cenchat are not covered by this privacy policy. They are covered by the privacy policy of the third-party service.
+Some of the content that you see displayed on Cenchat is not hosted by us. An example would be links shared by users in their messages. We don't control what data third parties collect in cases like this, or what they will do with it. So, third-party embeds on Cenchat are not covered by this privacy policy. They are covered by the privacy policy of the third-party service.
 
 ## Tracking & Cookies
 
