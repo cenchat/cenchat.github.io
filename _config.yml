@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Cenchat - messaging for websites and blogs
 description: >- # this means to ignore newlines until "baseurl:"
-  Bring back the meaningful engagements you've lost in this day and age of social media
+  Bring back the meaningful engagements you've lost from social media and messengers
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cenchat.com" # the base hostname & protocol for your site, e.g. http://example.com
 logo: https://firebasestorage.googleapis.com/v0/b/cenchat-app.appspot.com/o/assets%2Fimages%2Flogos%2Fcenchat-wordmark-wob-1200.png?alt=media&token=60d29c99-660c-43a2-a643-ec45eacd9876
