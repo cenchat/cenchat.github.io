@@ -4,6 +4,15 @@
 @import "post.css";
 @import "resets.css";
 
+a {
+  color: #455b82;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 @keyframes fade-in {
   0% {
     opacity: 0;
