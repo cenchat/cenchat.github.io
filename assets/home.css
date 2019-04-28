@@ -1,11 +1,11 @@
-.marketing {
+.home {
   padding: 56px 16px;
   margin-right: auto;
   margin-left: auto;
 }
 
 @media (min-width: 960px) {
-  .marketing {
+  .home {
     display: flex;
     flex-direction: column;
     height: calc(100vh - 192px);
@@ -17,7 +17,7 @@
   }
 }
 
-.marketing__jumbotron { 
+.home__jumbotron { 
   opacity: 0;
   animation-name: fade-in;
   animation-duration: 800ms;
@@ -26,7 +26,7 @@
   animation-fill-mode: forwards;
 }
 
-.marketing__title {
+.home__title {
   margin-top: 16px;
   margin-bottom: 16px;
   font-size: 3.75rem;
@@ -36,7 +36,7 @@
   text-align: center;
 }
 
-.marketing__subtitle {
+.home__subtitle {
   margin-top: 16px;
   margin-bottom: 16px;
   font-size: 1.5rem;
@@ -46,7 +46,7 @@
   text-align: center;
 }
 
-.marketing__caption {
+.home__caption {
   margin-top: 16px;
   margin-bottom: 16px;
   font-size: 0.75rem;
@@ -56,7 +56,7 @@
   text-align: center;
 }
 
-.marketing__demo-button {
+.home__demo-button {
   position: fixed;
   right: 16px;
   bottom: 16px;
@@ -84,7 +84,7 @@
 }
 
 @media (min-width: 960px) {
-  .marketing__demo-button {
+  .home__demo-button {
     right: 24px;
     bottom: 24px;
   }

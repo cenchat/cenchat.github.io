@@ -4,5 +4,16 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+
   <div itemprop="articleBody">{{ content }}</div>
+
+  {%- if page.tags.size > 0 -%}
+    <footer class="post__footer">
+      <ul class="post__tags">
+        {%- for tag in page.tags -%}
+          <li class="post__tag" itemprop="keywords">{{ tag }}</li>
+        {%- endfor -%}
+      </ul>
+    </footer>
+  {%- endif -%}
 </article>

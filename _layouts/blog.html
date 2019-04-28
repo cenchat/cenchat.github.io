@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="blog">
+  <h1 class="blog__heading">Blog</h1>
+
+  {%- if site.posts.size > 0 -%}
+    <ul class="blog__post-list">
+      {%- for post in site.posts -%}
+        <li class="blog__post-list-item">
+          <a class="blog__post-link" href="{{ post.url | relative_url }}">
+            <h2 class="blog__post-title">{{ post.title | escape }}</h2>
+            <p class="blog__post-description">{{ post.description | escape }}</p>
+          </a>
+
+          <div class="blog__meta">
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+            <div class="blog__meta-item">{{ post.date | date: date_format }}</div>
+
+            {%- if post.tags.size > 0 -%}
+              <span class="blog__meta-separator">&#8226;</span>
+    
+              {%- for tag in post.tags -%}
+                <div class="blog__meta-item">{{ tag }}</div>
+              {%- endfor -%}
+            {%- endif -%}
+          </div>
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+</div>

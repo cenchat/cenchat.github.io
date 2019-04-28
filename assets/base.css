@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+a {
+  color: #455b82;
+  text-decoration: none;
+}

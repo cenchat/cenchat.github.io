@@ -41,6 +41,7 @@
 
 .layout__main {
   flex: 1;
+  width: 100%;
   max-width: 480px;
   margin-right: auto;
   margin-left: auto;

@@ -2,17 +2,17 @@
 layout: default
 ---
 
-<div class="marketing">
-  <div class="marketing__jumbotron">
-    <h1 class="marketing__title">Messaging for websites and blogs</h1>
-    <p class="marketing__subtitle">{{ site.description }}</p>
+<div class="home">
+  <div class="home__jumbotron">
+    <h1 class="home__title">Messaging for websites and blogs</h1>
+    <p class="home__subtitle">{{ site.description }}</p>
 
-    <p class="marketing__caption">
+    <p class="home__caption">
       <em>Available for integration to select partners only</em>
     </p>
   </div>
 
   {%- if site.cenchat.id -%}
-    <button class="marketing__demo-button" id="cenchat-widget-button" {%- if page.cenchat_id -%} data-page-id="{{ page.cenchat_id }}" {%- endif -%}>Try a demo</button>
+    <button class="home__demo-button" id="cenchat-widget-button" {%- if page.cenchat_id -%} data-page-id="{{ page.cenchat_id }}" {%- endif -%}>Try a demo</button>
   {%- endif -%}
 </div>
