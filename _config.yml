@@ -21,6 +21,7 @@ url: "https://cenchat.com" # the base hostname & protocol for your site, e.g. ht
 logo: https://firebasestorage.googleapis.com/v0/b/cenchat-app.appspot.com/o/assets%2Fimages%2Flogos%2Fcenchat-wordmark-wob-1200.png?alt=media&token=60d29c99-660c-43a2-a643-ec45eacd9876
 image: https://firebasestorage.googleapis.com/v0/b/cenchat-app.appspot.com/o/assets%2Fimages%2Flogos%2Fcenchat-wordmark-wob-1200.png?alt=media&token=60d29c99-660c-43a2-a643-ec45eacd9876
 permalink: /blog/:categories/:year/:month/:day/:title:output_ext
+google_analytics: UA-66650537-2
 cenchat:
   id: SvuIuruMjrZEMFXZXH1W
 
