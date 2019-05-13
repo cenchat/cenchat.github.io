@@ -17,3 +17,14 @@ layout: default
     </footer>
   {%- endif -%}
 </article>
+
+{%- if site.cenchat.id and page.cenchat_id -%}
+  <button
+    class="post__cenchat-button"
+    id="cenchat-widget-button"
+    data-site-id="{{ site.cenchat.id }}"
+    data-page-id="{{ page.cenchat_id }}"
+  >
+    Share your thoughts
+  </button>
+{%- endif -%}

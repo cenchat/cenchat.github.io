@@ -8,11 +8,11 @@ layout: default
     <p class="home__subtitle">{{ site.description }}</p>
 
     <p class="home__caption">
-      <em>Available for integration to select partners only</em>
+      <em>Currently in beta. Free without any ads. Paid plans coming soon.</em>
     </p>
   </div>
 
-  {%- if site.cenchat.id -%}
-    <button class="home__demo-button" id="cenchat-widget-button" {%- if page.cenchat_id -%} data-page-id="{{ page.cenchat_id }}" {%- endif -%}>Try a demo</button>
+  {%- if site.cenchat.id and page.cenchat_id -%}
+    <button class="home__demo-button" id="cenchat-widget-button" data-site-id="{{ site.cenchat.id }}" data-page-id="{{ page.cenchat_id }}">Try a demo</button>
   {%- endif -%}
 </div>
