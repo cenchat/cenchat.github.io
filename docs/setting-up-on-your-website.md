@@ -35,9 +35,3 @@ To include the widget on your webpage, add the code below at the end of your HTM
 ```
 
 This script will be responsible for actually hooking up Cenchat to your *start chat* button.
-
-## WordPress plugin
-
-To make it easier to integrate Cenchat into WordPress sites, we're currently developing a plugin for it.
-
-This page will be updated once it's available.
