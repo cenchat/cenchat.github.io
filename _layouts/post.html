@@ -4,11 +4,18 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <h1 itemprop="name headline">{{ page.title | escape }}</h1>
-
   <div itemprop="articleBody">{{ content }}</div>
 
   {%- if page.tags.size > 0 -%}
-    <footer class="post__footer">
+    <footer>
+      <div>
+        <p class="post__footer-print">
+          <em>
+            Cenchat is a plugin for websites where it reinvents how we can have conversations with authors. We're only allowed to send private messages to them so the public (and mostly toxic) conversations can happen elsewhere. Authors can then publicize those conversations as read-only so the insightful ones can stand out.
+          </em>
+        </p>
+      </div>
+
       <ul class="post__tags">
         {%- for tag in page.tags -%}
           <li class="post__tag" itemprop="keywords">{{ tag }}</li>

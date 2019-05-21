@@ -97,6 +97,8 @@
 }
 
 .post blockquote p {
+  margin-top: 24px;
+  margin-bottom: 24px;
   font-size: 1.5rem;
   font-style: italic;
   font-weight: 400;
@@ -125,12 +127,15 @@
 }
 
 .post code {
-  padding: 4px;
   border-radius: 4px;
   background-color: #f5f5f5;
   font-size: 0.875rem;
   font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
   font-weight: 400;
+}
+
+.post code.highlighter-rouge {
+  padding: 4px;
 }
 
 .post table {
@@ -162,8 +167,9 @@
   background-color: rgba(0, 0, 0, 0.12);
 }
 
-.post__footer {
-  margin-top: 48px;
+.post__footer p {
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .post__tags {
