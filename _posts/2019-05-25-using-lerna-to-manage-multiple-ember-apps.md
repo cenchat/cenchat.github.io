@@ -34,7 +34,7 @@ As you can see above, our directory is a mixture of Ember apps, addons, and norm
 - `ember addon <addon_name>` for Ember addons
 - `ember new <app_name>` for Ember apps
 
-We also namespaced non-apps for organization purposes. This is completely optional, but we'll make use of it for the rest of the article.
+We also namespaced non-apps for organizational purposes. This is completely optional, but we'll make use of it for the rest of the article.
 
 ## Caveats
 
@@ -84,7 +84,7 @@ These are optional but something you just might want to do either way.
 
 ### 1. Setup Travis tests
 
-Since we're now in an awesome monorepo, we'll want to take advantage of running tests for all packages in one go. Below is a sample Travis config file which you should place it at the root of your repo.
+Since we're now in an awesome monorepo, we'll want to take advantage of running tests for all packages in one go. Below is a sample Travis config file which you should place at the root of your repo.
 
 ```yaml
 ---
@@ -137,4 +137,4 @@ Just for safety, you might want to set `"private": true` in each of your package
 
 There's definitely still some frictions when using Lerna to manage multiple Ember apps. However, those things are something we can live with in exchange of all the goodies we can get from going into a monorepo. Hopefully, the compatbility of Ember CLI with Lerna will improve.
 
-Lastly, our process is definitely not perfect so if you know of any better way to do things please do send us a message.
+Lastly, there might be better ways to do things so please do send us a message if you know of any.
