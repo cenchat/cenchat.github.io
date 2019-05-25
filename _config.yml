@@ -17,9 +17,9 @@ title: Cenchat - messaging for websites and blogs
 description: >- # this means to ignore newlines until "baseurl:"
   Bring back the meaningful engagements you've lost from social media and messengers
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cenchat.com" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "https://firebasestorage.googleapis.com/v0/b/cenchat-app.appspot.com/o/assets%2Fimages%2Flogos%2Fcenchat-wordmark-wob-1200.png?alt=media&token=3546efae-ca1c-42b3-98a4-a715f6b4444f"
-image: "https://firebasestorage.googleapis.com/v0/b/cenchat-app.appspot.com/o/assets%2Fimages%2Flogos%2Fcenchat-wordmark-wob-1200.png?alt=media&token=3546efae-ca1c-42b3-98a4-a715f6b4444f"
+url: https://cenchat.com # the base hostname & protocol for your site, e.g. http://example.com
+logo: assets/images/logos/cenchat-wordmark-wob-1200.png
+image: assets/images/logos/cenchat-wordmark-wob-1200.png
 permalink: /blog/:categories/:year/:month/:day/:title:output_ext
 google_analytics: UA-66650537-2
 cenchat:
@@ -30,7 +30,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: "https://firebasestorage.googleapis.com/v0/b/cenchat-app.appspot.com/o/assets%2Fimages%2Flogos%2Fcenchat-wordmark-wob-1200.png?alt=media&token=3546efae-ca1c-42b3-98a4-a715f6b4444f"
+      image: assets/images/logos/cenchat-wordmark-wob-1200.png
 
 # Build settings
 markdown: kramdown
