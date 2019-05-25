@@ -119,7 +119,7 @@ script:
 
 The config above is similar to the one generated in an Ember app or addon. The only thing we changed is the `script` section in which we're now using Lerna commands.
 
-Next, we'll have to configure our `ember test` command to automatically pick an available port. If we leave it at the default of 7357, our Travis tests may sometimes get the error of *port number is already being used*. Here's how it should look like in your `package.json`:
+Next, we'll have to configure our `ember test` command to automatically pick up an available port **in all our Ember apps and addons**. If we leave it at the default of 7357, our Travis tests may sometimes get the error of *port number is already being used*. Here's how it should look like in your `package.json`:
 
 ```json
 {
