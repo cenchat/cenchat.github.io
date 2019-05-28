@@ -1,10 +1,18 @@
 ---
 layout: post
-title: "The Best Alternative to Disqus"
-description: "Cenchat is a modern chat based alternative to Disqus. Try it for free now!"
+title: "The Best Disqus Alternative You Should Try in 2019"
+description: "Learn why Cenchat is the best Disqus alternative on your blog or website"
+cenchat_id: L4hf3QwUhCq9dKX5wBpn
+cenchat_start_chat_text: "Try a demo"
 ---
 
-## What makes Cenchat the easiest alternative to Disqus?
+## What's Cenchat?
+
+Cenchat is an alternative to Disqus where it reinvents how we can have conversations with authors.
+
+We're only allowed to send private messages to them so the public (and mostly toxic) conversations can happen elsewhere. Authors can then publicize those conversations as read-only so the insightful ones can stand out.
+
+## What makes Cenchat the best alternative to Disqus?
 
 Cenchat is the result of our goal to modernize and complement the discussions happening outside your websites/blogs (e.g. Facebook, Twitter, messenger apps, etc.).
 
@@ -30,8 +38,6 @@ Cenchat allows anonymous accounts because chats can be made public without the u
 
 People have been spoiled with how fast and easy it is to chat in messenger apps. They should expect no less when doing it in comments section. As a chat based format, Cenchat has that for you.
 
-## Try it
+## See for yourself
 
-Check out why Cenchat is the best Disqus alternative. It's free and simple to get started.
-
-[Get started](https://cenchat.com/docs/setting-up-on-your-website)
+Try the demo and see why Cenchat is the best Disqus alternative. After that, [get started](https://cenchat.com/docs/setting-up-on-your-website) with setting it up on your website.

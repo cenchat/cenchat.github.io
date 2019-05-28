@@ -32,6 +32,10 @@ layout: default
     data-site-id="{{ site.cenchat.id }}"
     data-page-id="{{ page.cenchat_id }}"
   >
-    Share your thoughts
+    {%- if page.cenchat_start_chat_text -%}
+      {{ page.cenchat_start_chat_text }}
+    {% else %}
+      Share your thoughts
+    {%- endif -%}
   </button>
 {%- endif -%}
