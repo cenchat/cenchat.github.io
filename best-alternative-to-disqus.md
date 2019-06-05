@@ -52,7 +52,7 @@ Since Cenchat is a chat-based solution you can also expect the same speed and re
 
 ![deleting your account]({{ "/assets/images/best-alternative-to-disqus/2.png" }})
 
-Not only do we value your privacy, we also value your data want to put you in control of it. We allow everyone to delete their account on Cenchat.
+Not only do we value your privacy, we also value your data and want to put you in control of it. We allow everyone to delete their account on Cenchat.
 
 When this happens, your chats will continue to exist but anonymized to keep the context of the discussion. Everything else on our servers that's identifiable to you will however be deleted.
 
