@@ -85,6 +85,7 @@
 
 .post img {
   display: block;
+  max-width: 100%;
   max-height: 320px;
   margin-top: 32px;
   margin-right: auto;
