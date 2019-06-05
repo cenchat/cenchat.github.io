@@ -84,7 +84,12 @@
 }
 
 .post img {
-  width: 100%;
+  display: block;
+  max-height: 320px;
+  margin-top: 32px;
+  margin-right: auto;
+  margin-bottom: 32px;
+  margin-left: auto;
   overflow: hidden;
   border-radius: 4px;
   border: 1px solid rgba(0, 0, 0, 0.12);
