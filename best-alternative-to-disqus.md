@@ -32,25 +32,25 @@ Here are a few reasons on why you should use Cenchat:
 
 Our business model doesn't revolve around tracking users and showing them ads. Instead, we plan to introduce a pricing model where we'll still offer a generous free tier.
 
-Ultimately, our goal is to convert the big publishers into paying customers in order to run our business.
+Ultimately, our goal is to convert the big publishers into paying customers in order to sustain our business.
 
 *Currently, everything is free without any limits. Paid plans will be introduced soon.*
-
-### Better privacy
-
-![chatting anonymously]({{ "/assets/images/best-alternative-to-disqus/1.png" }})
-
-One of Cenchat's goal is also to be a better privacy alternative to Disqus. We allow anonymous accounts because chats can be made public without the user's consent. However, anonymity always goes hand-in-hand with online harassment. But due to how Cenchat is designed in that you have full control over which conversations can be publicly readable, harassment can then be kept at a minimum.
 
 ### Faster
 
 Cenchat is designed to be lazy loaded so it wouldn't be a bottleneck for your websites and blogs. It also only loads just the absolute necessary needed for your audience to start engaging with you.
 
-Since Cenchat is a chat-based solution you can also expect the same speed and responsiveness you get with your favorite messenger apps. Hence, you can rest assured that Cenchat is also a faster alternative to Disqus.
+Since Cenchat is a chat-based solution you can also expect the same speed and responsiveness you get with your favorite messaging apps. Hence, you can rest assured that Cenchat is also a faster alternative to Disqus.
+
+### Better privacy
+
+One of Cenchat's goal is also to be a better privacy alternative to Disqus.
+
+We allow anonymous accounts because chats can be made public without the user's consent. However, anonymity always goes hand-in-hand with online harassment.
+
+With how Cenchat is designed in which every chat is private by default, harassment can then be kept at a minimum.
 
 ### Data management
-
-![deleting your account]({{ "/assets/images/best-alternative-to-disqus/2.png" }})
 
 Not only do we value your privacy, we also value your data and want to put you in control of it. We allow everyone to delete their account on Cenchat.
 
