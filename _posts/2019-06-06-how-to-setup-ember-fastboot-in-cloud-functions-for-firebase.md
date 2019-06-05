@@ -6,7 +6,7 @@ tags: "engineering ember"
 cenchat_id: "posts_2"
 ---
 
-Using Cloud Function for your server-side app can definitely be cheaper that setting up your own server. This is because it only gets executed when needed. Otherwise, it just sleeps practically cost you nothing. Not every app is the same though so your mileage may very.
+Using Cloud Function for your server-side app can definitely be cheaper that setting up your own server. This is because it only gets executed when needed. Otherwise, it just sleeps which practically costs you nothing. Not every app is the same though so your mileage may very.
 
 Before we proceed further, be sure you're familiar with [Ember FastBoot](https://ember-fastboot.com) and [Cloud Functions for Firebase](https://firebase.google.com/products/functions/) first.
 
