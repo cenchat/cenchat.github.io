@@ -24,17 +24,29 @@ Cenchat is an free alternative to Disqus where it reinvents the comments section
 
 It's a realtime chat-based solution where your audiences are only allowed to send private messages to you. You can then publicize those chats as **read-only** so the insightful ones can stand out. Now you can let the community conversations happen elsewhere and still leave your websites and blogs inviting for people that wants to get further insights from you.
 
-Here are more features that complements the way Cenchat is designed:
+## Why should I use Cenchat?
 
-### Anonymity
+Here are a few reasons on why you should use Cenchat:
+
+### No ads
+
+Our business model doesn't revolve around tracking users and showing them ads. Instead, we plan to introduce a pricing model where we'll still offer a generous free tier.
+
+Ultimately, our goal is to convert the big publishers into paying customers in order to run our business.
+
+*Currently, everything is free without any limits. Paid plans will be introduced soon.*
+
+### Better privacy
 
 ![chatting anonymously]({{ "/assets/images/best-alternative-to-disqus/1.png" }})
 
-One of Cenchat's goal is also to be a better civilized and privacy alternative to Disqus. We allow anonymous accounts because chats can be made public without the user's consent. However, anonymity always goes hand-in-hand with online harassment. But due to how Cenchat is designed in that you can only send messages to the author and it's up to them if it's worthy to be published, harassment can then be kept at a minimum.
+One of Cenchat's goal is also to be a better privacy alternative to Disqus. We allow anonymous accounts because chats can be made public without the user's consent. However, anonymity always goes hand-in-hand with online harassment. But due to how Cenchat is designed in that you have full control over which conversations can be publicly readable, harassment can then be kept at a minimum.
 
-### Lazy loaded
+### Faster
 
-Cenchat is designed to be lazy loaded so it wouldn't be a bottleneck for your websites and blogs. It also only loads just the absolute necessary needed for your audience to start engaging with you. Because of this, you can rest assured that Cenchat is also a faster alternative to Disqus.
+Cenchat is designed to be lazy loaded so it wouldn't be a bottleneck for your websites and blogs. It also only loads just the absolute necessary needed for your audience to start engaging with you.
+
+Since Cenchat is a chat-based solution you can also expect the same speed and responsiveness you get with your favorite messenger apps. Hence, you can rest assured that Cenchat is also a faster alternative to Disqus.
 
 ### Data management
 
