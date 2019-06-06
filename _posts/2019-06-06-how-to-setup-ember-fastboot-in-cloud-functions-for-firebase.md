@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "How to setup Ember FastBoot in Cloud Functions for Firebase"
-description: "Ember FastBoot allows you to have server-side rendering for your Ember app. But rather than setting up your own server, you can actually deploy it to functions as a service (FaaS) like Google Cloud Functions."
-tags: "engineering ember"
-cenchat_id: "posts_2"
+title: How to setup Ember FastBoot in Cloud Functions for Firebase
+description: Ember FastBoot allows you to have server-side rendering for your Ember app. But rather than setting up your own server, you can actually deploy it to functions as a service (FaaS) like Google Cloud Functions.
+author: Mikko Paderes
+tags: engineering ember
+cenchat:
+  id: posts_2
 ---
 
 Using Cloud Function for your server-side app can definitely be cheaper that setting up your own server. This is because it only gets executed when needed. Otherwise, it just sleeps which practically costs you nothing. Not every app is the same though so your mileage may very.

@@ -3,11 +3,29 @@ layout: default
 ---
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+  <header>
+    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+
+    <p class="post__meta">
+      <time class="post__meta-time" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+
+      {%- if page.author -%}
+        <span class="post__meta-divider"> - </span>
+
+        <span class="post__meta-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">{{ page.author | escape }}</span>
+        </span>
+      {%- endif -%}
+    </p>
+  </header>
+
   <div itemprop="articleBody">{{ content }}</div>
 
-  {%- if page.tags.size > 0 -%}
-    <footer>
+  <footer>
+    {%- unless page.hide_signature -%}
       <div>
         <p class="post__footer-print">
           <em>
@@ -15,25 +33,27 @@ layout: default
           </em>
         </p>
       </div>
+    {%- endunless -%}
 
+    {%- if page.tags.size > 0 -%}
       <ul class="post__tags">
         {%- for tag in page.tags -%}
           <li class="post__tag" itemprop="keywords">{{ tag }}</li>
         {%- endfor -%}
       </ul>
-    </footer>
-  {%- endif -%}
+    {%- endif -%}
+  </footer>
 </article>
 
-{%- if site.cenchat.id and page.cenchat_id -%}
+{%- if site.cenchat.id and page.cenchat.id -%}
   <button
     class="post__cenchat-button"
     id="cenchat-widget-button"
     data-site-id="{{ site.cenchat.id }}"
-    data-page-id="{{ page.cenchat_id }}"
+    data-page-id="{{ page.cenchat.id }}"
   >
-    {%- if page.cenchat_start_chat_text -%}
-      {{ page.cenchat_start_chat_text }}
+    {%- if page.cenchat.text -%}
+      {{ page.cenchat.text }}
     {% else %}
       Share your thoughts
     {%- endif -%}

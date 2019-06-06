@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Using Lerna to manage multiple Ember apps"
-description: "Creating addons for shared components across apps is the way to go but this can become messy and difficult to maintain"
-tags: "engineering ember"
-cenchat_id: "posts_1"
+title: Using Lerna to manage multiple Ember apps
+description: Creating addons for shared components across apps is the way to go but this can become messy and difficult to maintain
+author: Mikko Paderes
+tags: engineering ember
+cenchat:
+  id: posts_1
 ---
 
 Imagine your team maintaining multiple apps that are dependent on some shared components. You might think that creating addons for those components would be the way to go—and it is. But depending on how you modularize your projects, this can lead to creating more packages (not just addons) and it can become messy and difficult to maintain. 

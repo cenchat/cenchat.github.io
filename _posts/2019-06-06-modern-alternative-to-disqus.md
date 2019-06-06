@@ -1,16 +1,20 @@
 ---
 layout: post
-title: "How Comments Have Evolved and Why You Should Replace Disqus"
-description: "Social media has taken over comments and Cenchat can help your website adapt to it."
-cenchat_id: L4hf3QwUhCq9dKX5wBpn
-cenchat_start_chat_text: "Try a demo"
+title: Why You Need a Modern Disqus Alternative
+description: Comments have evolved as social media has taken over it. Your website should too. Here's a modern alternative to Disqus to help you do it.
+author: Mikko Paderes
+tags: strategy
+cenchat:
+  id: L4hf3QwUhCq9dKX5wBpn
+  text: Try a demo
+hide_signature: true
 ---
 
-Disqus has been one of the go-to commenting system for websites. It's one of the pioneers and probably still the biggest out there.
+Disqus has been one of the pioneers of comment hosting service and is still the biggest one in terms of market share right now. But for how long?
 
-However, its popularity has faded for quite a while now due to people being [unsatisfied with the direction Disqus is headed](https://fatfrogmedia.com/delete-disqus-comments-wordpress/). It doesn't help too that there's [increasing competition in its market](https://nestify.io/blog/11-best-disqus-alternatives-you-should-try/). One unlikely competitor to it isn't actually other comment hosting services, but instead, it's social media platforms such as Facebook, Twitter, and Reddit.
+Its popularity has faded for quite a while now due to people being [unsatisfied with the direction it's headed](https://fatfrogmedia.com/delete-disqus-comments-wordpress/). It doesn't help too that there's [increasing competition in its market](https://nestify.io/blog/11-best-disqus-alternatives-you-should-try/). One unlikely competitor to it isn't actually other comment hosting services, but instead, it's social media platforms such as Facebook, Twitter, and Reddit.
 
-A lot of popular websites have completely disabled their comments with the goal of moving it to various social media platforms. This happens when people share their content on platforms they're already in and talk about it there. This makes it easier for the author as they don't have to moderate comments and it will also speed up their websites by a lot.
+A lot of [popular websites](https://www.niemanlab.org/2015/09/what-happened-after-7-news-sites-got-rid-of-reader-comments/) have completely disabled their comments with the goal of moving it to various social media platforms. This happens when people share their content on platforms they're already in and talk about it there. This makes it easier for the website owners as they don't have to moderate comments and it will also speed up their websites by a lot.
 
 What's interesting is that even if comments are turned on, the same thing most usually still happens. Perhaps because people are just much more comfortable talking about things with people they know or communities they're apart of. That could be why they prefer sharing and talking about it with them rather than in an open podium like a blog's comment section.
 
@@ -24,11 +28,9 @@ If this leaves you on a dilemma on whether to look for a better alternative to D
 
 Cenchat provides a better way to engage with the audiences of websites that have opted to disable or thinking of disabling their comments section.
 
-It's a realtime chat-based solution where your audiences are only allowed to send private messages to you. You can then publicize those chats as **read-only** so the insightful ones can stand out. Now you can let the community conversations happen elsewhere and still keep an open channel for people that wants to get further insights from you.
+It's a realtime chat-based solution where your audiences are only allowed to send private messages to you. You can then publicize those chats as **read-only** so the insightful ones can stand out. Now you can let the community conversations happen elsewhere and still keep an open channel for people that wants to get further insights directly from you.
 
-## Why should I use Cenchat?
-
-Here are a few reasons on why you should use Cenchat:
+Furthermore, here are a few reasons on why you should switch to Cenchat:
 
 ### No ads
 
@@ -46,9 +48,9 @@ Since Cenchat is a chat-based solution you can also expect the same speed and re
 
 ### Better privacy
 
-One of Cenchat's goal is also to be a better privacy alternative to Disqus.
+We take privacy seriously and we strive to be the better alternative to Disqus when it comes to it. When we get information about you, we take less. The only data we want is the data that will make Cenchat work for you.
 
-We allow anonymous accounts because chats can be made public without the user's consent. However, anonymity always goes hand-in-hand with online harassment.
+Anonymous accounts are a big part of Cenchat because chats can be made public by the website owner without the user's consent. However, anonymity always goes hand-in-hand with online harassment.
 
 With how Cenchat is designed in which every chat is private by default, harassment can then be kept at a minimum.
 

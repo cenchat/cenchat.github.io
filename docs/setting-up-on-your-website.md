@@ -1,8 +1,9 @@
 ---
-layout: post
-title: "Setting up on your website"
-description: "This quickstart will show you how to set up Cenchat on your website."
-cenchat_id: "docs_1"
+layout: doc
+title: Setting up on your website
+description: This quickstart will show you how to set up Cenchat on your website.
+cenchat:
+  id: docs_1
 ---
 
 ## Getting started
