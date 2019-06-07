@@ -22,7 +22,7 @@ But before you jump the bandwagon of disabling comments. You should first realiz
 
 If this leaves you on a dilemma on whether to look for a better alternative to Disqus or disabling comments entirely, then you should first try Cenchat.
 
-![Cenchat a modern alternative to Disqus]({{ "/assets/images/posts/2019-06-06-modern-alternative-to-disqus/0.png" }})
+![Cenchat a modern alternative to Disqus]({{ "/assets/images/posts/2019-06-06-modern-alternative-to-disqus/0.jpg" }})
 
 ## What's Cenchat?
 
