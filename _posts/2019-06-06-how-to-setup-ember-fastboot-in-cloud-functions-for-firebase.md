@@ -3,7 +3,7 @@ layout: post
 title: How to setup Ember FastBoot in Cloud Functions for Firebase
 description: Ember FastBoot allows you to have server-side rendering for your Ember app. But rather than setting up your own server, you can actually deploy it to functions as a service (FaaS) like Google Cloud Functions.
 author: Mikko Paderes
-tags: engineering ember
+tags: engineering ember firebase
 cenchat:
   id: posts_2
 ---
