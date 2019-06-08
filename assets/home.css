@@ -1,23 +1,32 @@
 .home {
-  padding: 56px 16px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.home__wrapper {
+  padding-top: 56px;
+  padding-bottom: 56px;
   margin-right: auto;
   margin-left: auto;
 }
 
 @media (min-width: 960px) {
-  .home {
+  .home__wrapper {
     display: flex;
-    flex-direction: column;
-    height: calc(100vh - 192px);
-    justify-content: center;
-    max-width: 568px;
-    padding: 64px 24px;
+    max-width: 976px;
+    padding-top: 0;
+    padding-bottom: 0;
     margin-right: auto;
     margin-left: auto;
   }
 }
 
 .home__jumbotron { 
+  flex: 1;
+  align-self: center;
+  min-width: 50%;
+  padding-right: 16px;
+  padding-left: 16px;
   opacity: 0;
   animation-name: fade-in;
   animation-duration: 800ms;
@@ -54,6 +63,45 @@
   line-height: 1.25rem;
   color: rgba(0, 0, 0, 0.6);
   text-align: center;
+}
+
+@media (min-width: 960px) {
+  .home__title,
+  .home__subtitle,
+  .home__caption {
+    text-align: left;
+  }
+}
+
+.home__image-container {
+  flex: 1;
+  max-height: 480px;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .home__image-container {
+    max-height: 640px;
+  }
+}
+
+.home__image {
+  display: block;
+  max-height: 480px;
+  margin-left: -50%;
+}
+
+@media (min-width: 480px) {
+  .home__image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .home__image {
+    max-height: 640px;
+  }
 }
 
 .home__demo-button {

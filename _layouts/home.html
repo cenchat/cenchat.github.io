@@ -3,16 +3,22 @@ layout: default
 ---
 
 <div class="home">
-  <div class="home__jumbotron">
-    <h1 class="home__title">Messaging for websites</h1>
-    <p class="home__subtitle">{{ site.description }}</p>
-
-    <p class="home__caption">
-      <em>Currently in beta. Free without any ads. Paid plans coming soon.</em>
-    </p>
+  <div class="home__wrapper">
+    <div class="home__jumbotron">
+      <h1 class="home__title">Messaging for websites</h1>
+      <p class="home__subtitle">{{ site.description }}</p>
+  
+      <p class="home__caption">
+        <em>Currently in beta. Free without any ads. Paid plans coming soon.</em>
+      </p>
+    </div>
+  
+    <div class="home__image-container">
+      <img class="home__image" src="/assets/images/0.jpg" alt="Cenchat demo on various devices">
+    </div>
+  
+    {%- if site.cenchat.id and page.cenchat.id -%}
+      <button class="home__demo-button" id="cenchat-widget-button" data-site-id="{{ site.cenchat.id }}" data-page-id="{{ page.cenchat.id }}">Try a demo</button>
+    {%- endif -%}
   </div>
-
-  {%- if site.cenchat.id and page.cenchat.id -%}
-    <button class="home__demo-button" id="cenchat-widget-button" data-site-id="{{ site.cenchat.id }}" data-page-id="{{ page.cenchat.id }}">Try a demo</button>
-  {%- endif -%}
 </div>

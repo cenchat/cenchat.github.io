@@ -2,48 +2,50 @@
 layout: default
 ---
 
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <header>
-    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
-
-    <p class="post__meta">
-      <time class="post__meta-time" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-
-      {%- if page.author -%}
-        <span class="post__meta-divider"> - </span>
-
-        <span class="post__meta-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <span itemprop="name">{{ page.author | escape }}</span>
-        </span>
+<div class="layout__wrapper">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+  
+      <p class="post__meta">
+        <time class="post__meta-time" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ page.date | date: date_format }}
+        </time>
+  
+        {%- if page.author -%}
+          <span class="post__meta-divider"> - </span>
+  
+          <span class="post__meta-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">{{ page.author | escape }}</span>
+          </span>
+        {%- endif -%}
+      </p>
+    </header>
+  
+    <div itemprop="articleBody">{{ content }}</div>
+  
+    <footer>
+      {%- unless page.hide_signature -%}
+        <div>
+          <p class="post__footer-print">
+            <em>
+              Cenchat provides a better way to engage with the audiences of websites that have opted to disable their comments section. When comments are disabled, they tend to move to various social media when people share it there. While this makes things easier for the author, it however makes it difficult for their audiences to directly engage with them. Cenchat solves this by enabling people to send private messages to the author from within their articles. The authors can then publicize those conversations as read-only so the insightful ones can stand out.
+            </em>
+          </p>
+        </div>
+      {%- endunless -%}
+  
+      {%- if page.tags.size > 0 -%}
+        <ul class="post__tags">
+          {%- for tag in page.tags -%}
+            <li class="post__tag" itemprop="keywords">{{ tag }}</li>
+          {%- endfor -%}
+        </ul>
       {%- endif -%}
-    </p>
-  </header>
-
-  <div itemprop="articleBody">{{ content }}</div>
-
-  <footer>
-    {%- unless page.hide_signature -%}
-      <div>
-        <p class="post__footer-print">
-          <em>
-            Cenchat provides a better way to engage with the audiences of websites that have opted to disable their comments section. When comments are disabled, they tend to move to various social media when people share it there. While this makes things easier for the author, it however makes it difficult for their audiences to directly engage with them. Cenchat solves this by enabling people to send private messages to the author from within their articles. The authors can then publicize those conversations as read-only so the insightful ones can stand out.
-          </em>
-        </p>
-      </div>
-    {%- endunless -%}
-
-    {%- if page.tags.size > 0 -%}
-      <ul class="post__tags">
-        {%- for tag in page.tags -%}
-          <li class="post__tag" itemprop="keywords">{{ tag }}</li>
-        {%- endfor -%}
-      </ul>
-    {%- endif -%}
-  </footer>
-</article>
+    </footer>
+  </article>
+</div>
 
 {%- if site.cenchat.id and page.cenchat.id -%}
   <button

@@ -2,13 +2,15 @@
 layout: default
 ---
 
-<article class="post">
-  <header>
-    <h1>{{ page.title | escape }}</h1>
-  </header>
-
-  <div>{{ content }}</div>
-</article>
+<div class="layout__wrapper">
+  <article class="post">
+    <header>
+      <h1>{{ page.title | escape }}</h1>
+    </header>
+  
+    <div>{{ content }}</div>
+  </article>
+</div>
 
 {%- if site.cenchat.id and page.cenchat.id -%}
   <button
