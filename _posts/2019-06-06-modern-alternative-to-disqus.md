@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why You Need a Modern Disqus Alternative For Your Blog
+title: Why You Need a Modern Disqus Alternative For 2019
 description: Comments have evolved as social media has taken over it. Your blog should too. Here's a modern alternative to Disqus to help you do it.
 author: Mikko Paderes
 tags: strategy
