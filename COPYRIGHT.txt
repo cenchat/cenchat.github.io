@@ -1,4 +1,4 @@
-Cenchat - Messaging for websites
+Cenchat - Messaging for blogs
 
 Copyright (C) Cenchat
 
