@@ -85,6 +85,10 @@
 
 .layout__footer li {
   display: inline-block;
+}
+
+.layout__footer a {
+  display: block;
   height: 36px;
   padding-right: 4px;
   padding-left: 4px;
