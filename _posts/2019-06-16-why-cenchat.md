@@ -32,7 +32,7 @@ When a toxic comment is addressed to me, I can be sure to be professional in ord
 
 ## Modern alternative to the likes of Disqus
 
-The goal of Cenchat is to provide a new form of engagement within your blog that complements social media. What it does is that it enables your readers to send private messages to you—the blogger. You can then publicize those conversations as read-only for others so the insightful ones can stand out.
+The goal of Cenchat is to provide a new form of engagement within your blog that complements social media. What it does is that it enables your readers to send private messages to you—the blogger. Those conversations can then be publicized as read-only for other people so the insightful ones can stand out.
 
 With this, your readers can now have a way centralized way to contact you directly. You also now have an easier way to filter out those toxic conversations and your readers won't be missing out on your valuable comments unlike before where they're scattered all over various social media platforms.
 
