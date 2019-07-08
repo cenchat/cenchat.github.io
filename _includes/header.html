@@ -1,5 +1,11 @@
 <header class="layout__header">
-  <a href="{{ site.url }}">
+  <a class="layout__header-logo" href="{{ site.url }}">
     {%- include wordmark-logo.html -%}
   </a>
+
+  <a class="layout__header-link" href="https://web.cenchat.com" target="_blank" rel="noopener noreferrer">Sign in</a>
+
+  {%- unless page.layout == 'doc' -%}
+    <a class="layout__header-link layout__header-link--contained" href="/docs/setting-up-on-your-website">Get started</a>
+  {%- endunless -%}
 </header>

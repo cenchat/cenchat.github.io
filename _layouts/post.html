@@ -26,7 +26,7 @@ layout: default
     <div itemprop="articleBody">{{ content }}</div>
   
     <footer>
-      {%- unless page.tags contains "strategy" -%}
+      {%- unless page.tags contains 'strategy' -%}
         <div>
           <p class="post__footer-print">
             <em>
@@ -35,7 +35,7 @@ layout: default
           </p>
 
           <p class="post__footer-print">
-            <em>Learn more on <a href="{{ site.url }}/blog/2019/06/16/why-cenchat">why you should use Cenchat</a>.</em>
+            <em>Learn more on <a href="/blog/2019/06/16/why-cenchat">why you should use Cenchat</a>.</em>
           </p>
         </div>
       {%- endunless -%}
