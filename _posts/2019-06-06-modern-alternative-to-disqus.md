@@ -7,7 +7,6 @@ tags: strategy
 cenchat:
   id: L4hf3QwUhCq9dKX5wBpn
   text: Try a demo
-hide_signature: true
 ---
 
 Disqus is one of the pioneers of comment hosting service and is still the biggest one in terms of market share right now. But for how long?

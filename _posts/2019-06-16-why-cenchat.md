@@ -5,7 +5,8 @@ description: You lose in-site engagements when you disable WordPress comments co
 author: Mikko Paderes
 tags: strategy
 cenchat:
-  id: posts_3
+  id: L4hf3QwUhCq9dKX5wBpn
+  text: Try a demo
 ---
 
 I'm a person that likes to read comments. It's one those things that I just instinctively look for after reading an article and I'm sure that I'm not the only one. These days though, whether in social media or blogs, I'm seeing less of the quality comments that I love to read. It's now mostly polluted by people being trolls, abusive, and witty. It comes to the point where I block some websites that I used to read stuff of from.
@@ -34,3 +35,5 @@ When a toxic comment is addressed to me, I can be sure to be professional in ord
 The goal of Cenchat is to provide a new form of engagement within your blog that complements social media. What it does is that it enables your readers to send private messages to you—the blogger. You can then publicize those conversations as read-only for others so the insightful ones can stand out.
 
 With this, your readers can now have a way centralized way to contact you directly. You also now have an easier way to filter out those toxic conversations and your readers won't be missing out on your valuable comments unlike before where they're scattered all over various social media platforms.
+
+Interested? Try the demo below. Once you're convinced, you can start [setting it up on your blog](https://cenchat.com/docs/setting-up-on-your-website). For WordPress users, we also have a [plugin](https://wordpress.org/plugins/cenchat-comments/) that you can use to make things easier.
