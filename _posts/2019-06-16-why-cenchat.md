@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why Cenchat?
+title: What to Do After Disabling Your WordPress Comments Sitewide
 description: You lose in-site engagements when you disable WordPress comments completely. See how Cenchat can bring it back.
 author: Mikko Paderes
 tags: strategy
@@ -13,7 +13,7 @@ I'm a person that likes to read comments. It's one those things that I just inst
 
 ## Comments have moved to social media
 
-[Popular websites](https://www.niemanlab.org/2015/09/what-happened-after-7-news-sites-got-rid-of-reader-comments/) have already disabled their comments completely in favor of moving the conversations to social media because of 2 reasons:
+[Popular websites](https://www.niemanlab.org/2015/09/what-happened-after-7-news-sites-got-rid-of-reader-comments/) have already disabled their WordPress comments completely in favor of moving the conversations to social media because of 2 reasons:
 
 1. **Less moderation for bloggers**. It can be time consuming to moderate comments. Leaving it alone risks having the toxic ones to be associated to your article.
 2. **Impact of social media**. For the majority, they would discover your articles in social media when their circle of friends shares it. Thus, it's more natural for them to continue the engagements there.
