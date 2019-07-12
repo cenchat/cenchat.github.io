@@ -26,7 +26,7 @@ So I thought to myself:
 
 > How can I encourage people to comment in their favorite social media channels but still keep some of the things centralized and civilized?
 
-Naturally, your blog would be the centralized location itself. But how, do I keep things civilized?
+Naturally, my blog would be the centralized location itself. But how, do I keep things civilized?
 
 When a toxic comment is addressed to me, I can be sure to be professional in order to not escalate it further. However, I couldn't guarantee it for someone else. So I come to realize that most toxic comments that are hard to control happens when they're addressed to someone else or when they're just outright spam. And with these set of problems, I sought to build something for it.
 
