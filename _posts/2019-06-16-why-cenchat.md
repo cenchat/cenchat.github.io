@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What to Do After Disabling Your WordPress Comments Sitewide
+title: Why You Should Use Cenchat After Disabling Your WordPress Comments
 description: You lose in-site engagements when you disable WordPress comments completely. See how Cenchat can bring it back.
 author: Mikko Paderes
 tags: strategy
