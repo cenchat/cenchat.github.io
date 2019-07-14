@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Why You Should Disable WordPress Comments Then Use Cenchat
-description: You lose in-site engagements when you disable WordPress comments completely. See how Cenchat can bring it back.
+title: The Problem of Disabling Comments in WordPress
+description: You lose in-site engagements when you disable comments in WordPress completely. See how Cenchat can bring it back.
 author: Mikko Paderes
 tags: strategy
 cenchat:
@@ -13,7 +13,7 @@ I'm a person that likes to read comments. It's one those things that I just inst
 
 ## Comments have moved to social media
 
-[Popular websites](https://www.niemanlab.org/2015/09/what-happened-after-7-news-sites-got-rid-of-reader-comments/) have already disabled their WordPress comments completely in favor of moving the conversations to social media because of 2 reasons:
+[Popular websites](https://www.niemanlab.org/2015/09/what-happened-after-7-news-sites-got-rid-of-reader-comments/) have already disabled their WordPress comments completely (site-wide) in favor of moving the conversations to social media because of 2 reasons:
 
 1. **Less moderation for bloggers**. It can be time consuming to moderate comments. Leaving it alone risks having the toxic ones to be associated to your article.
 2. **Impact of social media**. For the majority, they would discover your articles in social media when their circle of friends shares it. Thus, it's more natural for them to continue the engagements there.
@@ -30,7 +30,7 @@ Naturally, my blog would be the centralized location itself. But how, do I keep 
 
 When a toxic comment is addressed to me, I can be sure to be professional in order to not escalate it further. However, I couldn't guarantee it for someone else. So I come to realize that most toxic comments that are hard to control happens when they're addressed to someone else or when they're just outright spam. And with these set of problems, I sought to build something for it.
 
-## Modern alternative to the likes of Disqus
+## Modern alternative to comments
 
 The goal of Cenchat is to provide a new form of engagement within your blog that complements social media. What it does is that it enables your readers to send private messages to you—the blogger. Those conversations can then be publicized as read-only for other people so the insightful ones can stand out.
 
