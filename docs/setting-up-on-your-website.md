@@ -1,20 +1,34 @@
 ---
 layout: doc
-title: Setting up on your website
-description: This quickstart will show you how to set up Cenchat on your website.
+title: Setting up on your blog
+description: This quickstart will show you how to easily set up Cenchat on your blog.
 cenchat:
   id: docs_1
 ---
 
-## Getting started
+This quickstart will show you how to easily set up Cenchat on your blog.
 
-This quickstart will show you how to set up Cenchat on your website.
+Before anything else, you will need to register and create an account in [our app](https://web.cenchat.com).
 
-Before starting, you'll first need to create a [Cenchat Site](https://web.cenchat.com/sites/new), if you haven't done so already. Once you've created one, you'll have to take note of your Site ID (marked in red in the image below).
+## Create a Cenchat Site
+
+Per every blog that you have, you will need to create a corresponding Cenchat Site for it. It's there where you can configure how it will look like so that it would blend well with your design.
+
+To create a Cenchat Site, go [here](https://web.cenchat.com/sites/new).
 
 ![Site UI Example]({{ "/assets/images/docs/setting-up-on-your-website/0.png" }})
 
-## Create your start chat button
+## Integrate on WordPress Blogs
+
+To make it easier to integrate Cenchat into WordPress blogs, we have an official plugin on [wordpress.org](https://wordpress.org/plugins/cenchat-comments/).
+
+## Custom Integration
+
+Cenchat isn't just limited to WordPress blogs as it can work on any type of website. You'll however need to have basic knowledge with web technologies so it might be a good idea to reach out to your developer if possible.
+
+To set it up manually, follow the instructions below:
+
+### 1. Create a 'Start Chat' Button
 
 Cenchat requires you to have your own *start chat* button. This is what your audience will click whenever they want to open Cenchat for that particular web page. You have full control on how you want it to look and where you want it to be placed.
 
@@ -25,9 +39,9 @@ In your *start chat* button, you  **must** add the attributes `id`, `data-site-i
 ```
 
 - **Site ID:** This is the ID of your Cenchat Site you've created earlier.
-- **Page ID:** This is the ID of your web page which you'll have to provide manually. **Make sure that it's unique across your entire website**.
+- **Page ID:** This is the ID of your web page which you will have to provide manually. **Make sure that it's unique across your entire blog**.
 
-## Include the widget on your webpage
+### 2. Include the Widget on Your Webpage
 
 To include the widget on your webpage, add the code below at the end of your HTML file's `<body>` tag:
 
@@ -36,7 +50,3 @@ To include the widget on your webpage, add the code below at the end of your HTM
 ```
 
 This script will be responsible for actually hooking up Cenchat to your *start chat* button.
-
-## WordPress plugin
-
-To make it easier to integrate Cenchat into WordPress sites, we have an official plugin on [wordpress.org](https://wordpress.org/plugins/cenchat-comments/).
