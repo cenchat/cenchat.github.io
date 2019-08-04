@@ -15,7 +15,7 @@ I'm a person that likes to read comments. It's one of those things that I just i
  
 [Popular websites](https://www.niemanlab.org/2015/09/what-happened-after-7-news-sites-got-rid-of-reader-comments/) have already disabled their comments completely in favor of moving the conversations to social media because of 2 reasons:
  
-1. **Less moderation for bloggers**. It can be time consuming to moderate comments. Leaving it alone risks having the toxic ones to be associated to your article.
+1. **Less moderation for bloggers**. It can be time consuming to moderate comments. However, leaving it alone risks having the toxic ones to be associated to your article.
 2. **Impact of social media**. For the majority, they would discover your articles on social media when their circle of friends shares it. Thus, it's more natural for them to continue the engagements there.
  
 What's wrong with this though? Well, the downside here is that your community would be disconnected since there are a lot of social media platforms out there like Facebook, Twitter, and Reddit—just to name a few. Not everyone is in each one of it and this makes it harder for you and your readers to engage with one another. More often than not, they would be missing out on the valuable insights you have with your comments.
