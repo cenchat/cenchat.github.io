@@ -31,6 +31,8 @@ Naturally, my blog would be the centralized location itself. But how do I keep t
 When a toxic comment is addressed to me, I can be sure to be professional in order not to escalate it further. However, I couldn't guarantee it for someone else. So I come to realize that most toxic comments that are hard to control happens when they're addressed to someone else or when they're just outright spam. And with these set of problems, I sought to build something for it.
  
 ## Modern Alternative to Disqus
+
+![Cenchat is a modern alternative to Disqus]({{ "/assets/images/posts/2019-06-06-modern-alternative-to-disqus/0.jpg" }})
  
 The goal of Cenchat is to provide a new form of engagement within your blog that complements social media. What it does is that it enables your readers to send private messages to you—the blogger. Those conversations can then be publicized as read-only for other people so the insightful ones can stand out.
  
