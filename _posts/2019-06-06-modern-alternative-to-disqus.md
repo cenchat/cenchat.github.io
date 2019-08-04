@@ -13,7 +13,7 @@ I'm a person that likes to read comments. It's one of those things that I just i
  
 ## Comments Have Moved to Social Media
  
-[Popular websites](https://www.niemanlab.org/2015/09/what-happened-after-7-news-sites-got-rid-of-reader-comments/) have already disabled their WordPress comments completely (site-wide) in favor of moving the conversations to social media because of 2 reasons:
+[Popular websites](https://www.niemanlab.org/2015/09/what-happened-after-7-news-sites-got-rid-of-reader-comments/) have already disabled their comments completely in favor of moving the conversations to social media because of 2 reasons:
  
 1. **Less moderation for bloggers**. It can be time consuming to moderate comments. Leaving it alone risks having the toxic ones to be associated to your article.
 2. **Impact of social media**. For the majority, they would discover your articles on social media when their circle of friends shares it. Thus, it's more natural for them to continue the engagements there.
